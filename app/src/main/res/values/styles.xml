@@ -1,0 +1,8 @@
+<resources>
+
+	<style name="UserInput">
+		<item name="android:textColorHint">@color/global_secondary_text_color</item>
+		<item name="android:textColor">@color/global_primary_text_color</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+</resources>

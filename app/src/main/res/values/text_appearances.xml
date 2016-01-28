@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="HelloKotlin.TextAppearance" parent="TextAppearance.AppCompat">
+		<item name="android:textColor">@color/global_primary_text_color</item>
+	</style>
+
+	<style name="HelloKotlin.TextAppearance.Title">
+		<item name="android:textSize">@dimen/global_text_l</item>
+	</style>
+
+	<style name="HelloKotlin.TextAppearance.Text">
+		<item name="android:textSize">@dimen/global_text_m</item>
+		<item name="android:textColor">@color/global_secondary_text_color</item>
+	</style>
+</resources>

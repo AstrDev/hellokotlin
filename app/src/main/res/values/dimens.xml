@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="global_spacing_xxxs">4dp</dimen>
+	<dimen name="global_spacing_xxs">8dp</dimen>
+	<dimen name="global_spacing_xs">16dp</dimen>
+	<dimen name="global_spacing_s">24dp</dimen>
+	<dimen name="global_spacing_m">32dp</dimen>
+	<dimen name="global_spacing_l">48dp</dimen>
+	<dimen name="global_spacing_xl">56dp</dimen>
+	<dimen name="global_spacing_xxl">72dp</dimen>
+
+	<dimen name="global_text_xs">12dp</dimen>
+	<dimen name="global_text_s">14dp</dimen>
+	<dimen name="global_text_m">16dp</dimen>
+	<dimen name="global_text_l">20dp</dimen>
+	<dimen name="global_text_xl">24dp</dimen>
+	<dimen name="global_text_xxl">28dp</dimen>
+
+	<dimen name="fragment_main_recycler_bottom_padding">78dp</dimen>
+</resources>

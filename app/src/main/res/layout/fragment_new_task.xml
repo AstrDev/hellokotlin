@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_marginTop="@dimen/global_spacing_xs"
+		android:padding="@dimen/global_spacing_xs">
+
+		<EditText
+			android:id="@+id/fragment_new_task_title_input"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/fragment_new_task_title_hint"
+			android:textStyle="bold"
+			style="@style/UserInput"/>
+
+		<EditText
+			android:id="@+id/fragment_new_task_text_input"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/global_spacing_xs"
+			android:hint="@string/fragment_new_task_text_hint"
+			android:minLines="2"
+			style="@style/UserInput"/>
+
+	</LinearLayout>
+
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/fragment_new_task_done_bttn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right|bottom"
+		android:layout_margin="@dimen/global_spacing_xs"
+		android:src="@drawable/ic_done_inverse"/>
+
+</android.support.design.widget.CoordinatorLayout>
